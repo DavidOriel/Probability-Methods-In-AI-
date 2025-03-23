@@ -1,15 +1,21 @@
 # Probability-Methods-In-AI-
 This repo contains my projects in Probability methods in AI course taken in HUJI. 
 
-EX1 contains the first exercise, which is about building an HMM class, and predict the Prior, Likelihood and Posterior.
-and after that indentifying corrupted data with the model.
+EX1: Hidden Markov Model
+This exercise focuses on building an HMM class and predicting the Prior, Likelihood, and Posterior.
+After that, we use the model to identify corrupted dat
 
-EX2 contains the second project. I used the class from the last project for sampling based inference, and realize Gibbs sampling 
-and Likelihood Weightning.
+EX2: Sampling-Based Inference
+In this project, I reused the HMM class from EX1 to perform sampling-based inference, implementing both Gibbs Sampling and Likelihood Weighting.
 
-EX3 contains the third project. In the last exercises we used the given CPDs to perform various inference tasks. In this priject , we want to use data to learn the model parameters.
-There are two learning methods, the first one will be over full data and will based on MLE, the second one will be over missing data, and we will use the EM method.
+EX3: Parameter Learning
+In this exercise, we move from using predefined CPDs to learning model parameters from data.
+Two learning methods were applied:
 
-EX4 contains the fourth project. In this project we used reinforcment learning techniques to solve a maze game - "the fish pond". We implemented Q-learning algorithm over offline and online
-learning methods.
+1.MLE (Maximum Likelihood Estimation) over complete data
+2.EM (Expectation-Maximization) for learning with missing data
+
+EX4: Reinforcement Learning
+This project applies reinforcement learning techniques to solve a maze game called “The Fish Pond”.
+We implemented the Q-learning algorithm in both offline and online learning settings.
 
