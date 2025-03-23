@@ -15,7 +15,7 @@ Two learning methods were applied:
 🔹MLE (Maximum Likelihood Estimation) over complete data  
 🔹EM (Expectation-Maximization) for learning with missing data  
 
-EX4: Reinforcement Learning
+EX4: Reinforcement Learning  
 This project applies reinforcement learning techniques to solve a maze game called “The Fish Pond”.
 We implemented the Q-learning algorithm in both offline and online learning settings.
 
